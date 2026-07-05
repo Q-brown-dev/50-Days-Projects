@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:#0a0a14;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* SCROLL BAR */
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  z-index: 9999;
+  background:cyan;
+}
+article {
+  padding: 40%;
+}
+
