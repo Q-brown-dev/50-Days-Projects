@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day_30_sign in form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Welcome Back</h2>
+
+        <form id="form">
+
+            <div class="form-group">
+                <label for="Email">Email Address</label>
+                <input type="email" name="email" required placeholder="you@example.com">
+            </div>
+
+            <div class="form-group">
+
+                <label for="Password">Password</label>
+                <input type="password" name="password" required placeholder="•••••••">
+            </div>
+            <button class="btn" onclick="passSave()" type="submit">Sign in</button>
+        </form>
+        <p class="footer-text">
+            Dont't have an account? <a href="#">Sign up</a>
+        </p>
+
+
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
