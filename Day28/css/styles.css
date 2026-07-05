@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: radial-gradient(circle, #2b2b2b, #000);
+}
+
+.btn {
+    font-size: 2em;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 45px;
+    cursor: pointer;
+}
+.myLabels{
+    color: red;
+    font-size: 3em;
+}
