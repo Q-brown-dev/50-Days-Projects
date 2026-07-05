@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center-;
+}
+
+.container {
+    background: #aaa;
+    height: 100vh;
+    width: 100%;
+}
+
+/* =====================
+----The Circles------
+============= */
+
+.circle-1 {
+    display: none;
+    margin-top: 21%;
+    margin-left: 47%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 1s ease-in-out;
+    position: fixed;
+}
+
+.circle-2 {
+    position: fixed;
+    display: none;
+    margin-top: 17%;
+    margin-left: 43%;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.circle-3 {
+    position: fixed;
+    display: none;
+    margin-top: 15%;
+    margin-left: 41%;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.circle-4 {
+    position: fixed;
+    display: none;
+    margin-top: 13%;
+    margin-left: 39%;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 4s ease-in-out;
+}
+
+.circle-5 {
+    position: fixed;
+    display: none;
+    margin-top: 11%;
+    margin-left: 37%;
+    height: 350px;
+    width: 350px;
+    border-radius: 350px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 5s ease-in-out;
+}
+
+.circle-6 {
+    position: fixed;
+    display: none;
+    margin-top: 9%;
+    margin-left: 35%;
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 6s ease-in-out;
+}
+
+.circle-7 {
+    position: fixed;
+    display: none;
+    margin-top: 7%;
+    margin-left: 33%;
+    height: 450px;
+    width: 450px;
+    border-radius: 450px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 7s ease-in-out;
+}
+
+.circle-8 {
+    position: fixed;
+    display: none;
+    margin-top: 5%;
+    margin-left: 31%;
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 8s ease-in-out;
+}
+
+.circle-9 {
+    position: fixed;
+    display: none;
+    margin-top: 3%;
+    margin-left: 29%;
+    height: 550px;
+    width: 550px;
+    border-radius: 550px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 9s ease-in-out;
+}
+
+.circle-10 {
+    position: fixed;
+    display: none;
+    margin-top: 1%;
+    margin-left: 27%;
+    height: 600px;
+    width: 600px;
+    border-radius: 600px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 10s ease-in-out;
+}
+
+.circle-11 {
+    position: fixed;
+    display: none;
+    margin-top: -1%;
+    margin-left: 25%;
+    height: 650px;
+    width: 650px;
+    border-radius: 650px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 11s ease-in-out;
+}
+
+.circle-12 {
+    position: fixed;
+    display: none;
+    margin-top: -3%;
+    margin-left: 23%;
+    height: 700px;
+    width: 700px;
+    border-radius: 700px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 12s ease-in-out;
+}
+
+.circle-13 {
+    position: fixed;
+    display: none;
+    margin-top: -5%;
+    margin-left: 21%;
+    height: 750px;
+    width: 750px;
+    border-radius: 750px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 13s ease-in-out;
+}
+
+.circle-14 {
+    position: fixed;
+    display: none;
+    margin-top: -7%;
+    margin-left: 19%;
+    height: 800px;
+    width: 800px;
+    border-radius: 800px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 14s ease-in-out;
+}
+
+.circle-15 {
+    position: fixed;
+    display: none;
+    margin-top: -9%;
+    margin-left: 17%;
+    height: 850px;
+    width: 850px;
+    border-radius: 850px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 15s ease-in-out;
+}
+
+.circle-16 {
+    position: fixed;
+    display: none;
+    margin-top: -11%;
+    margin-left: 15%;
+    height: 900px;
+    width: 900px;
+    border-radius: 900px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 16s ease-in-out;
+}
+
+.circle-17 {
+    position: fixed;
+    display: none;
+    margin-top: -13%;
+    margin-left: 13%;
+    height: 950px;
+    width: 950px;
+    border-radius: 950px;
+    border: 1px solid black;
+    transition: 0.6s ease-out;
+    animation: fadeIn 17s ease-in-out;
+}
+
+.circle-18 {
+    position: fixed;
+    display: none;
+    margin-top: -15%;
+    margin-left: 11%;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 1000px;
+    border: 1px solid white;
+    transition: 0.6s ease-out;
+    animation: fadeIn 18s ease-in-out;
+}
+
+.circle-19 {
+    position: fixed;
+    display: none;
+    margin-top: -17%;
+    margin-left: 9%;
+    height: 1050px;
+    width: 1050px;
+    border: 1px solid black;
+    border-radius: 1050px;
+    transition: 0.6s ease-out;
+    animation: fadeIn 19s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 20px;
+    }
+}
+
+
+.active {
+    display: block;
+    transition: all 0.6s ease-out;
+    /* animation: fadeOut 20s ease-in-out; */
+}
+
+
+.ripple {
+    margin-top: 23%;
+    position: fixed;
+    margin-left: 30px;
+    height: 45px;
+    width: 200px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
