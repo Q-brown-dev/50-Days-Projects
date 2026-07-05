@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Goal */
+.goal {
+    margin-left: -710px;
+    font-weight: bolder;
+    text-align:left;
+    color: white;
+    gap: 50px;
+}
+span h2 {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+.steps {
+    color: orangered;
+    border-bottom: none;
+}
+.frist-container {
+    margin-left: 710px;
+    padding: 40%;
+    display: none;
+}
+
+.inside {
+    margin-top: 100px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+
+.second-container {
+    position: fixed;
+    margin-top: 40%;
+    /* remember in the active you add this ones   display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: none;
+    gap: 50px;
+}
+
+.display-card {
+    border: 1px solid #ffffff3d;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.delete-message {
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.btn-2 {
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+ #delete-1 {
+    margin-top: 325px;
+    position: fixed;
+    color: white;
+ } 
+
+ #delete-2 {
+    position: fixed;
+    color: white;
+    margin-top: 325px;
+}
+
+#delete-3 {
+    position: fixed;
+    color: white;
+    position: fixed;
+}
+
+#delete-4 {
+    position: fixed;
+    color: white;
+    color: white;
+} 
+
+.active {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.active-for-card {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+}
+.none {
+    display: none;
+}
