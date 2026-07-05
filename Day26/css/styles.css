@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    gap: 20px;
+    background: #fff;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.cart a {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ff6600;
+}
+
+#cart-count {
+    font-size: 1.5rem;
+}
+
+nav {
+    margin-left: 660px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hero */
+.hero {
+    background: url('../img/Bg.jpg') no-repeat center/cover;
+    padding: 20px 20px 20px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+}
+
+/* Product */
+.product {
+    margin-top: 20px;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    margin: 15px;
+    color: #333;
+}
+
+.price {
+    margin: 0 15px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #333;
+}
+.decscription {
+    margin: 15px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+button {
+    display: block;
+    width: calc(100% - 30px);
+    margin: 15px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+ button:hover {
+    background-color: #e65c00;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px;
+    background: #444;
+    font-weight: bolder;
+}
