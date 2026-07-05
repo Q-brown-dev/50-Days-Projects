@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#222;
+}
+
+.game-area{
+    width:600px;
+    height:400px;
+    border:3px solid white;
+    position:relative;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+#box{
+    width:50px;
+    height:50px;
+    background:gold;
+    position:absolute;
+    top:20px;
+    left:20px;
+    border-radius:10px;
+
+    /* Smooth movement */
+    transition: all 0.4s ease;
+}
+
+.controls{
+    display:flex;
+    gap:10px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
