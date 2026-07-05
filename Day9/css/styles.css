@@ -1,0 +1,36 @@
+body {
+            font-family: Arial;
+            padding: 30px;
+            background: #f5f7fb
+        }
+
+        .box {
+            max-width: 420px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, .06)
+        }
+
+        .field {
+            position: relative
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 44px 12px 12px;
+            border-radius: 6px;
+            border: 1px solid #d0d7de
+        }
+
+        .toggle {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-weight: 700
+        }
