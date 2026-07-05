@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:#0a0a14;
+  color:white;
+  /* overflow-x:hidden; */
+  cursor:none;
+}
+
+/* CURSOR */
+.cursor{
+  width:15px;
+  height:15px;
+  background:#00f7ff;
+  position:fixed;
+  border-radius:50%;
+  pointer-events:none;
+  box-shadow:0 0 20px #00f7ff;
+}
+
+/* NAV */
+nav{
+  position:fixed;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  z-index:1000;
+}
+
+.logo{color:#00f7ff;}
+
+/* HERO */
+.hero{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+/* SECTIONS */
+section{
+  padding:100px 50px;
+  opacity:0;
+  transform:translateY(100px);
+  transition:1s;
+}
+
+section.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* BUTTON */
+.btn{
+  margin-top:20px;
+  padding:15px 25px;
+  border:2px solid #00f7ff;
+  background:transparent;
+  color:white;
+  cursor:pointer;
+  position:relative;
+  overflow:hidden;
+}
+
+.btn::before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:#00f7ff;
+  top:100%;
+  left:0;
+  transition:0.3s;
+  z-index:-1;
+}
+
+.btn:hover::before{
+  top:0;
+}
+
+/* PROJECTS */
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  padding:30px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-15px);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .hero h1{font-size:2rem;}
+}
