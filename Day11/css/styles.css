@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    animation: fadeIn 1s ease-in;
+    padding: 11% ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-container {
+   padding: 115px 140px 115px 140px;
+    background: rgb(7, 135, 158);
+    font-size: 110px;
+    box-shadow: 0 0 8px white;
+}
+.music-bag {
+    display: flex;
+    flex-direction: column;
+}
+.tools {
+    gap: 210px;
+    padding: 12px 12px 12px 12px;
+    background: #10343f8f;
+}
+ #music-toggle {
+    text-align: center;
+   padding: 10px 15px;
+   background: #00ffe0;
+   border: none;
+   color: #000;
+   font-weight: bold;
+   border-radius: 20px;
+   cursor: pointer;
+   box-shadow: 0 0 10px #00ffe0;
+   transition: all 0.3s ease;
+
+ }
+
+ #music-toggle:hover {
+   transform: scale(1.05);
+ }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
