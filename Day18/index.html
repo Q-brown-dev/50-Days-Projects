@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 18 _ LightBox</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    
+    <div class="gallery">
+        <!-- Image 1 -->
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="img/Bg 1.png" alt="image 1">
+            <P class="caption">Resturant Card</p>
+        </div>
+        <!-- Image 2 -->
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="img/Bg-2.png" alt="image 1">
+            <P class="caption">Ecommerce Web</p>
+        </div>
+        <!-- Image 3 -->
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="img/Bg-3.jpg" alt="image 1">
+            <P class="caption">Cinema</p>
+        </div>
+        <!-- Image 4 -->
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="img/Bg-4.jpg" alt="image 1">
+            <P class="caption">Estate</p>
+        </div>
+    </div>
+
+
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img src="" id="lightbox-img" alt="Zoomed Image">
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
