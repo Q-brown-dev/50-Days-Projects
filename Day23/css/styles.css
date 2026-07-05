@@ -1,0 +1,136 @@
+body {
+    background: #1b1a1a;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px 20px 20px 20px;
+    background: #1b1a1a;
+    border-bottom: 1px solid #fff;
+} 
+
+h2 {
+    color: white;
+}
+nav {
+    margin-left: 630px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px 20px 20px 20px;
+}
+nav li  {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 12px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+
+/* Circle */
+.container {
+    height: 100vh;
+    width: 100%;
+}
+.circle-container {
+    margin-top: 215px;
+  position: fixed ;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: #fff;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+article {
+    margin-top: 250px;
+}
+h2 {
+    margin-left: 50px;
+    color: white;
+}
+span {
+    margin-left: 50px;
+    color: white;
+}
+p {
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+header.active {
+  padding-block: 20px;
+  background-color: var(--eerie-black-4);
+  border-color: var(--black-alpha-15);
+}
+
+header.hide {
+  transform: translateY(-100%);
+  transition-delay: 250ms;
+}
