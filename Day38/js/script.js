@@ -1,28 +1,25 @@
-let notes =
-JSON.parse(localStorage.getItem("notes")) || [];
+let notes = JSON.parse(localStorage.getItem("notes")) || [];
 
-function saveNotes(){
-localStorage.setItem(
-"notes",
-JSON.stringify(notes)
-);
+function saveNotes() {
+    localStorage.setItem(
+        "notes",
+        JSON.stringify(notes)
+    );
 }
 
-function renderNotes(){
+function renderNotes() {
 
-const notesContainer =
-document.getElementById("notes");
+    const notesContainer = document.getElementById("notes");
 
-notesContainer.innerHTML = "";
+    notesContainer.innerHTML = "";
 
-notes.forEach((note,index)=>{
+    notes.forEach((note, index) => {
 
-const div =
-document.createElement("div");
+        const div = document.createElement("div");
 
-div.classList.add("note");
+        div.classList.add("note");
 
-div.innerHTML = `
+        div.innerHTML = `
 <p>${note}</p>
 <button
 class="delete"
@@ -31,37 +28,37 @@ Delete
 </button>
 `;
 
-notesContainer.appendChild(div);
+        notesContainer.appendChild(div);
 
-});
-
-}
-
-function addNote(){
-
-const noteText =
-document.getElementById("noteText");
-
-if(noteText.value.trim() === ""){
-alert("Please enter a note.");
-return;
-}
-
-notes.push(noteText.value);
-
-saveNotes();
-renderNotes();
-
-noteText.value = "";
+    });
 
 }
 
-function deleteNote(index){
+function addNote() {
 
-notes.splice(index,1);
+    const noteText =
+        document.getElementById("noteText");
 
-saveNotes();
-renderNotes();
+    if (noteText.value.trim() === "") {
+        alert("Please enter a note.");
+        return;
+    }
+
+    notes.push(noteText.value);
+
+    saveNotes();
+    renderNotes();
+
+    noteText.value = "";
+
+}
+
+function deleteNote(index) {
+
+    notes.splice(index, 1);
+
+    saveNotes();
+    renderNotes();
 
 }
 
