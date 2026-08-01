@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.progress-container {
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.progress {
+    position: absolute;
+    height: 4px;
+    background-color: #3498db;
+    top: 50%;
+    left: 0;
+    width: 0;
+    transition: .3s;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 20px;
+    background: #fff;
+}
+
+.circle.active {
+    border-color: #3498db;
+}
+
+#prev {
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-left: 60px;
+    cursor: pointer;
+    border: 1px solid #3498db;
+}
+#prev:active {
+    border: none;
+}
+#next {
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #3498db;
+}
+#next:active {
+    border: none;
+}

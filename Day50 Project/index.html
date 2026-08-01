@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 50 - Expense Tracker</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Expense Tracker</h1>
+
+        <div class="balance">
+            Tota: ₦<span id="total">0</span>
+        </div>
+
+        <input type="text" id="expenseName" placeholder="Expense Name">
+
+        <input type="number" id="expenseAmount" placeholder="Amount">
+
+        <button onclick="addExpense()">
+            Add Expense
+        </button>
+
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
