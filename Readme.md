@@ -1,5 +1,5 @@
 # 50 Days 50 Project
-50 days 50 Project  is a cllection of 50 projects task completed in 50 days .
+50 days 50 Project  is a collection of 50 projects task completed in 50 days .
 ---
 ## Features 
 - **Modern ,Stylish layouts**
