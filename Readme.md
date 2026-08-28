@@ -19,6 +19,18 @@
 
 ---
 
+
+## Projects Links
+|Projects|Links|
+|--------|---------------------|
+**Day6**  | https://q-brown-dev.github.io/Day6/|
+**Day13** | https://q-brown-dev.github.io/Day13/|
+**Day14** | https://q-brown-dev.github.io/Day14/|
+**Day30** |https://q-brown-dev.github.io/Day30/|
+**Day36** |https://q-brown-dev.github.io/Day36/|
+**Day41** |https://q-brown-dev.github.io/Day41/|
+**Day46** |https://q-brown-dev.github.io/Day46/|
+
 ## 🛠️Technologies Used
 
 - **HTML5**
