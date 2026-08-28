@@ -1,0 +1,55 @@
+x.faq-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.faq {
+    border-bottom: 1px solid rgb(70, 67, 67);
+}
+
+.faq input[type="checkbox"] {
+    display: none;
+}
+
+.faq-label {
+    content: "+";
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: gray;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.faq-label:hover {
+    background-color: rgb(89, 95, 95);
+}
+
+.faq-answer {
+   max-height: 0;
+   overflow: hidden;    
+   transition: max-height 0.4s ease, opacity 0.4s ease;
+   opacity: 0;  
+   padding: 0 1rem;
+   display: block;
+}
+
+.faq input[type="checkbox"]:checked~.faq-answer {
+    max-height: 200px;
+    opacity: 1;
+    padding: 1rem;
+}
+
+.faq-answer p {
+    margin: 0;
+    color: #474747;
+    line-height: 1.6;
+}
