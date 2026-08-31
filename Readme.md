@@ -30,7 +30,9 @@
 **Day36** |https://q-brown-dev.github.io/Day36/|
 **Day41** |https://q-brown-dev.github.io/Day41/|
 **Day46** |https://q-brown-dev.github.io/Day46/|
-
+**Day44** |https://q-brown-dev.github.io/Day-Project44/|
+**Day47** |https://q-brown-dev.github.io/Day47/|
+*
 ## 🛠️Technologies Used
 
 - **HTML5**
